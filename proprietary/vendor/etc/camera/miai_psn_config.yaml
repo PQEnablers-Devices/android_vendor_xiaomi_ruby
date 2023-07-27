@@ -1,0 +1,54 @@
+# push to /vendor/etc/camera to be read by main program
+# version: 2022_0921_1518_M16_S.R_vM16.0.5
+algo_params:
+  common:
+    daylight_lux_thres: 275
+    use_faceblur: false
+  align:
+  deghost:
+    ev6_ratio_mul: 0
+  merge:
+
+  denoise:
+    dldenoise_lux_thres: 0 #250
+    dldenoise_iso_thres: 230
+
+    
+    sigmamap_ratio: 1.5
+    m_min_front_dlw: 0.2
+    m_max_front_dlw: 0.5
+    m_min_back_dlw: 0.45
+    m_max_back_dlw: 0.8
+    nlm_window_size: 5
+    nlm_template_size: 3
+
+  post_process: 
+    face_light: 0.05
+    face_contrast: 0.0
+    face_gamma: 0.0
+    bg_light_ratio: 0.2
+    dark_bg_light_ratio: 0.1
+    dark_lighten_lux_thresh: 600.0
+    add_lapnoise_scale: 35.0
+    
+    # sharp
+    portrait_sharp_0: 2.5
+    portrait_sharp_1: 1.7
+    portrait_sharp_2: 1.7
+    portrait_sharp_3: 1.7
+
+    #satuation
+    adjust_satuation: false
+    satuation_a: 0.0
+    satuation_b: 0.0
+
+    #thres
+    blend_sharpen_lux_thres: 400
+    
+  model_paths:
+    denoise_paths: "/vendor/etc/camera/quantize_mtk_0.00246_1800-360620_singleinput_mdla20.dla"
+    portraitseg_paths: "/vendor/etc/camera/fold_qianzhi_512_edutpu140_ar36912_depth128_dd48_2_128_inscale_q12qrqfct_rotate45_scale_distortcolor_quantaware_step205420_without_softmax_mdla20_vpu.dla"
+    skyseg_paths: "/vendor/etc/camera/skyseg_384_without_softmax_mdla20_vpu.dla"
+    
+
+    

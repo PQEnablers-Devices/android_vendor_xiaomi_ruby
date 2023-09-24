@@ -671,6 +671,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ruby/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib/libvoiprec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvoiprec.so \
+    vendor/xiaomi/ruby/proprietary/vendor/lib/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_aa.so \
+    vendor/xiaomi/ruby/proprietary/vendor/lib/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_dd.so \
+    vendor/xiaomi/ruby/proprietary/vendor/lib/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_ha.so \
+    vendor/xiaomi/ruby/proprietary/vendor/lib/libvow_ap_test_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_hh.so \
+    vendor/xiaomi/ruby/proprietary/vendor/lib/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_nn.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
